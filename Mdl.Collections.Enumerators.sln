@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{46889E50-D116-485A-A544-ADDDD5519179}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{1BFE455C-79F8-4BCB-8F45-A8C030C0872D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D9A5F1F0-2265-48A6-9081-7D36B7B01587}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25CA5598-B349-481A-93D5-C26EEEF3059C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mdl.Collections.Enumerators", "src\Mdl.Collections.Enumerators\Mdl.Collections.Enumerators.csproj", "{EBD98371-4BD6-4CF7-81B0-7AE0AC6FC5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mdl.Collections.Enumerators.Tests", "tests\Mdl.Collections.Enumerators.Tests\Mdl.Collections.Enumerators.Tests.csproj", "{C8E30E4C-A9FD-498D-ABAA-325493E23FF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBD98371-4BD6-4CF7-81B0-7AE0AC6FC5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD98371-4BD6-4CF7-81B0-7AE0AC6FC5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD98371-4BD6-4CF7-81B0-7AE0AC6FC5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD98371-4BD6-4CF7-81B0-7AE0AC6FC5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E30E4C-A9FD-498D-ABAA-325493E23FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E30E4C-A9FD-498D-ABAA-325493E23FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E30E4C-A9FD-498D-ABAA-325493E23FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E30E4C-A9FD-498D-ABAA-325493E23FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBD98371-4BD6-4CF7-81B0-7AE0AC6FC5B1} = {46889E50-D116-485A-A544-ADDDD5519179}
+		{C8E30E4C-A9FD-498D-ABAA-325493E23FF9} = {D9A5F1F0-2265-48A6-9081-7D36B7B01587}
+	EndGlobalSection
+EndGlobal
